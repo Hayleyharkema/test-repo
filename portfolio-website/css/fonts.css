@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "din-reg";
+  font-weight: 800;
+  font-style: normal;
+  src:
+  url("../fonts/DINPro-Black.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "din-reg";
+  font-weight: 600;
+  font-style: normal;
+  src:
+  url("../fonts/DINPro-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "din-reg";
+  font-weight: normal;
+  font-style: normal;
+  src:
+  url("../fonts/DINPro-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "din-reg";
+  font-weight: 200;
+  font-style: normal;
+  src:
+  url("../fonts/DINPro-Light.otf") format("truetype");
+}
