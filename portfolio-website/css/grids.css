@@ -1,0 +1,59 @@
+.full-margins{
+	width: 80%;
+	margin: auto;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid-cell {
+  flex: 1;
+}
+
+.grid-gutters {
+  margin: -1em 0 0 -1em;
+}
+.grid-gutters > .grid-cell {
+  padding: 1em 0 0 1em;
+}
+
+/* Alignment per row */
+.grid-top {
+  align-items: flex-start;
+}
+.grid-bottom {
+  align-items: flex-end;
+}
+.grid-center {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Alignment per cell */
+.grid-cell-top {
+  align-self: flex-start;
+}
+.grid-cell-bottom {
+  align-self: flex-end;
+}
+.grid-cell-center {
+  align-self: center;
+}
+
+.grid-full{
+	flex: 0 0 100%;
+}
+
+.grid-half{
+	flex: 0 0 50%;
+}
+
+.grid-third{
+	flex: 0 0 30%;
+}
+
+.grid-fourty{
+	flex: 0 0 40%;
+}

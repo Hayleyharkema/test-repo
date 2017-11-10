@@ -1,0 +1,98 @@
+*, *::after, *::before{ /* star is select all ||| pseudo elements rednered after page?*/
+  box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	font-family: "din-reg";
+	height: 100%;
+}
+
+img{
+	display: inline;
+}
+
+h1{
+	font-size: 1.5rem;
+	letter-spacing: 0.5rem;
+	display: inline;
+	padding:0.5rem 1rem;
+	background-color: #bcdaf2;
+}
+
+p{
+	font-family:  'Libre Baskerville', serif;
+	line-height: 1.5rem;
+}
+
+.vertical-stripe{
+	background-color: #bcdaf2;
+	height: 100%;
+	width: 33%;
+	left: 0;
+	position: fixed;
+	z-index: -9999;
+}
+
+#main-content{
+	margin-top: 15rem;
+	align-content: space-between;
+	width: 100%;
+	float: right;
+	right: 0;
+
+}
+
+#project-one-img{
+	width: 40%;
+	height: auto;
+}
+
+.project-description{
+	display: inline;
+	width: 40%;
+	margin-left:auto; 
+	margin-right:0;
+}
+
+.flex-horiz{
+	flex-direction: row;
+}
+
+.button{
+	text-align: center;
+	padding:0.5rem 0.5rem;
+	width: 25%;
+	border:1px #bcdaf2 solid;
+}
+
+#project-menu{
+	bottom: 0;
+}
+
+.profile-title{
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+.margin-bottom{
+	margin-bottom: 10rem;
+}
+
+.margin-top{
+	margin-top: 2rem;
+}
+
+.profile-img{
+	width: 70%;
+	height: auto;
+	bottom: 0;
+	top: auto;
+}
+
+.center{
+	text-align: center;
+}
