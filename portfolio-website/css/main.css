@@ -29,12 +29,26 @@ p{
 }
 
 .vertical-stripe{
-	background-color: #bcdaf2;
 	height: 100%;
 	width: 33%;
 	left: 0;
-	position: fixed;
-	z-index: -9999;
+	position: absolute;
+}
+
+.blue{
+	background-color: #bcdaf2;
+	z-index: -1;
+}
+
+.grey{
+	background-color: #FFD4C2;
+	z-index: -2;
+	height: 95%;
+}
+
+.background-3{
+	background-color: #B8CCD3;
+	z-index: -3;
 }
 
 #main-content{
@@ -67,6 +81,58 @@ p{
 	padding:0.5rem 0.5rem;
 	width: 25%;
 	border:1px #bcdaf2 solid;
+}
+
+.btn {
+    position: relative;
+    display: block;
+	width:9rem;
+	height:3rem;
+    text-align: center;
+    text-transform: lowercase;
+    background-color: transparent;
+    text-decoration:none;
+    line-height: 3rem;
+}
+
+.btn svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn svg rect {
+	display: flex;
+	align-self: center;
+	stroke: #bcdaf2;
+	width:90%;
+	height:90%;
+	margin: auto;
+
+    //stroke: #EC0033;
+    stroke-width: 1;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+    fill: none;
+}
+
+
+.btn:hover svg rect {
+    stroke-width: 1;
+    stroke-dasharray: 130, 400;
+    stroke-dashoffset: 0;
+}
+
+.btn:active svg rect{
+    stroke-width: 1;
+    stroke-dasharray: 192, 604;
+    stroke-dashoffset: 437;
 }
 
 #project-menu{
