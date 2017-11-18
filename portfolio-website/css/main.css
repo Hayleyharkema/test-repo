@@ -26,6 +26,7 @@ h1{
 p{
 	font-family:  'Libre Baskerville', serif;
 	line-height: 1.5rem;
+	margin: 0;
 }
 
 .vertical-stripe{
@@ -65,6 +66,11 @@ p{
 	height: auto;
 }
 
+.full-img{
+	width: 100%;
+	height: auto;
+}
+
 .project-description{
 	display: inline;
 	width: 40%;
@@ -76,6 +82,9 @@ p{
 	flex-direction: row;
 }
 
+.flex-vert{
+	flex-direction: column;
+}
 .button{
 	text-align: center;
 	padding:0.5rem 0.5rem;
@@ -152,6 +161,10 @@ p{
 	margin-top: 2rem;
 }
 
+.big-margin-top{
+	margin-top: 5rem;
+}
+
 .profile-img{
 	width: 70%;
 	height: auto;
@@ -161,4 +174,37 @@ p{
 
 .center{
 	text-align: center;
+}
+
+#img-on{
+	visibility: hidden;
+}
+
+#img-off{
+	visibility: visible;
+}
+
+#img-cont:hover #img-on{
+	visibility: visible;
+}
+
+#img-cont:hover #img-off{
+	visibility: hidden;
+}
+
+#img-cont{
+	height: 500px;
+	width: 100%;
+	display: inline-block;
+	min-height: 50px;
+}
+
+#img-cont img{
+	position: absolute;
+	width: auto;
+	height: 500px;
+}
+
+#second-lamp-section{
+	margin-top: 18rem;
 }

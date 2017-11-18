@@ -11,9 +11,14 @@
   flex: 1;
 }
 
-.grid-gutters {
-  margin: -1em 0 0 -1em;
+.grid-gutters-right {
+  padding: 0 1rem 0 0;
 }
+
+.grid-gutters-left {
+  padding:  0 0 0 1rem;
+}
+
 .grid-gutters > .grid-cell {
   padding: 1em 0 0 1em;
 }
@@ -52,6 +57,10 @@
 
 .grid-third{
 	flex: 0 0 30%;
+}
+
+.grid-two-third{
+  flex: 0 0 70%;
 }
 
 .grid-fourty{
