@@ -69,6 +69,16 @@
 
 
 @media(min-width: 41.6875em){
+  .title-container{
+  display: flex;
+  justify-content: flex-start;
+}
+
+  .btn {
+    margin: initial;
+    margin-top: 2rem;
+}
+
   .grid-fourty {
     flex: 0 0 40%;
   }
@@ -112,15 +122,12 @@
   display: initial;
 }
 
-  #header{
-    padding-top: 2rem;
-  }
   #header .full-margins{
     display: initial;
 }
 
 .full-margins #logotype{
-    display: initial;
+    display: inline-flex;
 }
 
 #nav-buttons{
@@ -137,7 +144,6 @@ right: 0;
 .background-2{
   background-color: #FFD4C2;
   z-index: -2;
-  height: 95%;
 }
 
 .background-3{
@@ -147,7 +153,7 @@ right: 0;
 
 
   #header{
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   box-shadow: 0px 3px 9px 0 rgba(0, 0, 0, 0.2), 0 1px 9px 0 rgba(0, 0, 0, 0.19);
   z-index: 9999;

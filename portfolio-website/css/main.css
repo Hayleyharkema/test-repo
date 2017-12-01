@@ -23,14 +23,29 @@ h1{
 	background-color: #bcdaf2;
 }
 
+.product-title{
+font-size: 1.5rem;
+	letter-spacing: 0.5rem;
+	display: inline;
+	padding:0.5rem 1rem;
+	background-color: #bcdaf2;
+	margin: 0;
+}
+
 p{
 	font-family:  'Libre Baskerville', serif;
 	line-height: 1.5rem;
 	margin: 0;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
 a:visited{
 	color: black;
+	text-decoration: none;
 }
 
 em{
@@ -38,31 +53,37 @@ em{
 	font-weight: bold;
 }
 
+.title-container{
+	display: flex;
+	justify-content: center;
+}
 
 .vertical-stripe{
-	width: 100%;
-	left: 0;
-	display: inline-block;
+	    width: 100%;
+    left: 0;
+    display: block;
+    background-color: #bcdaf2;
+    z-index: -37;
+    position: relative;
 }
 
 #main-content{
-	margin-top: 3rem;
+	margin-top: 2rem;
 	align-content: space-between;
 	width: 100%;
 }
 
 .project-one-img{
-	padding-top: 6rem;
-	padding-bottom: 2rem;
-	width: 60%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+	padding-top: 0rem;
+    padding-bottom: 0;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 #project-one-first-img{
-	padding-top: 3rem;
+	padding-top: 0rem;
+	width: 75%;
 }
 
 .full-img{
@@ -95,17 +116,52 @@ em{
 	border:1px #bcdaf2 solid;
 }
 
+.nav-btn {
+display: inline-block;
+    color: #bcdaf2;
+    text-decoration: none;
+}
+
+.nav-btn::after {
+    content: '';
+    display: flex;
+    width: 0;
+    height: 1.5px;
+    background: #bcdaf2;
+    transition: width .3s;
+    margin-top: 0.25rem;
+}
+
+.current::after {
+	content: '';
+    display: flex;
+    width: 100%;
+    height: 1.5px;
+    background: #bcdaf2;
+    transition: width .3s;
+    margin-top: 0.25rem;
+}
+.nav-btn:hover::after {
+    width: 100%;
+}
+
 .btn {
-    position: relative;
-    display: block;
-	width:9rem;
-	height:3rem;
+        position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    width: 9rem;
+    height: 3rem;
     text-align: center;
     text-transform: lowercase;
     background-color: transparent;
-    text-decoration:none;
+    text-decoration: none;
     line-height: 3rem;
     color: black;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
 }
 
 .btn svg {
@@ -114,38 +170,38 @@ em{
     left: 0;
     width:100%;
     height: 100%;
-    display: flex;
+        display: flex;
+    align-items: center;
+    align-content: center;
     justify-content: center;
 }
 
 .btn svg rect {
-	display: flex;
-	align-self: center;
-	stroke: #bcdaf2;
-	width:90%;
-	height:90%;
-	margin: auto;
-
-    //stroke: #EC0033;
-    stroke-width: 1;
+	    display: flex;
+    align-self: center;
+    stroke: #bcdaf2;
+    width: 98%;
+    height: 90%;
+    margin: auto;
+    stroke-width: 1.25;
     stroke-dasharray: 353, 0;
     stroke-dashoffset: 0;
-    -webkit-transition: all 600ms ease;
-    transition: all 600ms ease;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
     fill: none;
 }
 
 
 .btn:hover svg rect {
-    stroke-width: 1;
-    stroke-dasharray: 130, 400;
-    stroke-dashoffset: 0;
+    stroke-width: 1.25;
+    stroke-dasharray: 127, 189;
+    stroke-dashoffset: 142;
 }
 
 .btn:active svg rect{
-    stroke-width: 1;
-    stroke-dasharray: 192, 604;
-    stroke-dashoffset: 437;
+    stroke-width: 1.25;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
 }
 
 #project-menu{
@@ -159,7 +215,7 @@ em{
 }
 
 .margin-bottom{
-	margin-bottom: 10rem;
+	margin-bottom: 3rem;
 }
 
 .margin-top{
@@ -168,6 +224,16 @@ em{
 
 .big-margin-top{
 	margin-top: 5rem;
+}
+
+.background-2{
+  background-color: #FFD4C2;
+  z-index: -2;
+}
+
+.background-3{
+  background-color: #B8CCD3;
+  z-index: -3;
 }
 
 .profile-img{
