@@ -81,6 +81,12 @@
 
 
 @media(min-width: 41.6875em){
+
+  .profile-content{
+      flex-direction: initial;
+    align-content: initial;
+    flex-wrap: initial;
+}
   .temp-margin{
   margin-top: 0;
 }

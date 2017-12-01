@@ -245,12 +245,20 @@ display: inline-block;
   z-index: -3;
 }
 
+.outline-2{
+	stroke: #FFD4C2;
+}
+
+.outline-3{
+	stroke: #B8CCD3;
+}
+
 .profile-img{
-	width: 0%;
+	width: 70%;
 	height: auto;
 	bottom: 0;
 	top: auto;
-	visibility: hidden
+	visibility: visible;
 }
 
 .center{
@@ -291,4 +299,10 @@ display: inline-block;
 
 .first-margin{
 	margin-top: 22rem;
+}
+
+.profile-content{
+	    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: nowrap;
 }
