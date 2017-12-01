@@ -154,6 +154,24 @@
   right: 0;
 }
 
+ .main-content{
+  margin-top: 15rem;
+  margin-right: 10vw;
+  align-content: space-between;
+  width: 50%;
+  float: right;
+  right: 0;
+}
+
+  #main-content-two{
+  margin-top: 15rem;
+  margin-right: 10vw;
+  align-content: space-between;
+  width: 50%;
+  float: right;
+  right: 0;
+}
+
   .project-one-img{
   padding-top: 14rem;
   padding-bottom: 10rem;
@@ -226,6 +244,9 @@ right: 0;
 }
 
 @media(min-width: 41.6875em){
+  #web-main-img{
+  transform: rotateZ(-20deg) translateX(6rem);
+}
 
   .big-margin-top{
   margin-top: 5rem;

@@ -83,6 +83,18 @@ em{
 	width: 100%;
 }
 
+.main-content{
+	margin-top: 2rem;
+	align-content: space-between;
+	width: 100%;
+}
+
+#main-content-two{
+	margin-top: 2rem;
+	align-content: space-between;
+	width: 100%;
+}
+
 .project-one-img{
 	padding-top: 0rem;
     padding-bottom: 0;
@@ -205,7 +217,7 @@ display: inline-block;
 .btn:hover svg rect {
     stroke-width: 1.25;
     stroke-dasharray: 127, 189;
-    stroke-dashoffset: 142;
+    stroke-dashoffset: 128;
 }
 
 .btn:active svg rect{
@@ -309,6 +321,10 @@ display: inline-block;
 
 }
 
+#second-web-img{
+	margin-top: 7rem;
+}
+
 .first-margin{
 	margin-top: 22rem;
 }
@@ -317,4 +333,8 @@ display: inline-block;
 	    flex-direction: column;
     align-content: flex-start;
     flex-wrap: nowrap;
+}
+
+#web-main-img{
+	transform: rotateZ(-20deg) translateX(0rem);
 }
