@@ -12,11 +12,11 @@
 }
 
 .grid-gutters-right {
-  padding: 0 2rem 0 0;
+  padding: 0 0rem 0 0;
 }
 
 .grid-gutters-left {
-  padding:  0 0 0 2rem;
+  padding:  0 0 0 0rem;
 }
 
 .grid-gutters > .grid-cell {
@@ -52,7 +52,7 @@
 }
 
 .grid-half{
-	flex: 0 0 50%;
+	flex: initial;
 }
 
 .grid-third{
@@ -70,8 +70,36 @@
 .grid-sixty{
 }
 
+.grid-horiz{
+  flex-direction: column;
+}
+
+.temp-margin{
+  margin-top: 2rem;
+}
+
+
 
 @media(min-width: 41.6875em){
+  .temp-margin{
+  margin-top: 0;
+}
+
+  .grid-horiz{
+  flex-direction: row;
+}
+
+  .grid-half{
+  flex: 0 0 50%;
+}
+
+  .grid-gutters-right {
+  padding: 0 2rem 0 0;
+}
+
+.grid-gutters-left {
+  padding:  0 0 0 2rem;
+}
 
   .grid-sixty{
   flex: 0 0 60%;
@@ -192,6 +220,11 @@ right: 0;
 }
 
 @media(min-width: 41.6875em){
+
+  .big-margin-top{
+  margin-top: 5rem;
+}
+
 
   .first-margin{
   margin-top: 2rem;
