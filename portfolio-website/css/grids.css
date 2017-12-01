@@ -12,11 +12,11 @@
 }
 
 .grid-gutters-right {
-  padding: 0 1rem 0 0;
+  padding: 0 2rem 0 0;
 }
 
 .grid-gutters-left {
-  padding:  0 0 0 1rem;
+  padding:  0 0 0 2rem;
 }
 
 .grid-gutters > .grid-cell {
@@ -67,8 +67,16 @@
 	flex: 0 0 100%;
 }
 
+.grid-sixty{
+}
+
 
 @media(min-width: 41.6875em){
+
+  .grid-sixty{
+  flex: 0 0 60%;
+}
+
   .title-container{
   display: flex;
   justify-content: flex-start;
@@ -184,12 +192,50 @@ right: 0;
 }
 
 @media(min-width: 41.6875em){
+
+  .first-margin{
+  margin-top: 2rem;
+}
+
   .project-description{
     width: 80%;
   }
+
+  #img-cont img{
+      position: absolute;
+    width: auto;
+    height: 350px;
+    top: 14rem;
+    left: initial;
+    right: initial;
+    margin: initial;
+}
+}
+
+@media(min-width: 48em){
+  #img-cont img{
+      position: absolute;
+    width: auto;
+    height: 400px;
+    top: 14rem;
+    left: initial;
+    right: initial;
+    margin: initial;
+}
+}
+
+
+@media(min-width: 56em){
+.grid-half{
+  flex: 0 0 50%;
+}
 }
 
 @media(min-width: 63.3125em){
+  #img-cont img{
+  height: 500px;
+  top: 8rem;
+}
   .project-description{
     width: 50%;
   }
