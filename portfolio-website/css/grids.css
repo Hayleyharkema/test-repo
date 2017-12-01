@@ -249,6 +249,17 @@ right: 0;
     right: initial;
     margin: initial;
 }
+
+#img-cont iframe{
+      position: absolute;
+    width: auto;
+    height: 350px;
+    top: 14rem;
+    left: initial;
+    right: initial;
+    margin: initial;
+}
+
 }
 
 @media(min-width: 48em){
@@ -256,7 +267,17 @@ right: 0;
       position: absolute;
     width: auto;
     height: 400px;
-    top: 14rem;
+    top: 11rem;
+    left: initial;
+    right: initial;
+    margin: initial;
+}
+
+#img-cont iframe{
+      position: absolute;
+    width: auto;
+    height: 400px;
+    top: 11rem;
     left: initial;
     right: initial;
     margin: initial;
@@ -268,10 +289,19 @@ right: 0;
 .grid-half{
   flex: 0 0 50%;
 }
+
+p{
+  font-size: 1rem;
+}
 }
 
 @media(min-width: 63.3125em){
   #img-cont img{
+  height: 500px;
+  top: 8rem;
+}
+
+#img-cont iframe{
   height: 500px;
   top: 8rem;
 }
