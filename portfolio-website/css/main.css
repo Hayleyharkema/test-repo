@@ -63,6 +63,10 @@ em{
 	font-weight: bold;
 }
 
+.block{
+	display: block;
+}
+
 .title-container{
 	display: flex;
 	justify-content: center;
@@ -248,6 +252,10 @@ display: inline-block;
 	margin-top: 2rem;
 }
 
+.style-guide-margin-top{
+	margin-top: 8rem;
+}
+
 .background-2{
   background-color: #FFD4C2;
   z-index: -2;
@@ -276,6 +284,12 @@ display: inline-block;
 
 .center{
 	text-align: center;
+}
+
+.swatch{
+	width: 33%;
+	height: 10vw;
+	background-color: #bcdaf2;
 }
 
 #img-on{

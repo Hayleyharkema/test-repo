@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Contact Hayley Harkema</title>
+  <title>Style Guide</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
@@ -45,15 +45,45 @@
   </div>
 
   <div class="full-margins grid">
-    <div id="main-content" class="grid grid-top grid-full grid-center">
-      <div class="grid-full">
+    <div class="grid grid-top grid-full style-guide-margin-top">
+      <div class="grid-third flex-vert">
+        <ul class="grid flex-vert">
+          <li class="nav-btn"> <a href="#visual-el">visual elements </a></li>
+          <li class="nav-btn"> <a href="#visual-el">interactive elements </a></li>
+          <li class="nav-btn"> <a href="#visual-el">text styling </a></li>
+          <li class="nav-btn"> <a href="#visual-el">grids</a></li>
+          <li class="nav-btn"> <a href="#visual-el">combined elements </a></li>
+        </ul>
+      </div>
+      <div class="grid-two-third">
+        <h1>Style Guide</h1>
+        <h2 id="visual-el" class="big-margin-top">visual elements</h2>
+        <div>
+          <div class="grid-gutters-left">
+            <h3>Colours :</h3>
+            <p>The colours for this portfolio are grounded in a predominantly black and white background. They are meant to be a source of focus and should thus be used sparingly. The colours should be derived from the content which they support to ensure cohesion between elements.</p>
+            <p class="margin-top"> Only the main highlight colour should be used without concern for content related colours. The main highlight can be used for any highlight or interaction, however if there is a more suitable colour that has been derived from content being used then this colour should be used instead. The second and third highlight can be subject to change as the content they support changes.</p>
+            <div class="grid space-between margin-top">
+              <div class="swatch center grid grid-center flex-vert"> <h4>Main Highlight:</h4><p> #bcdaf2</p></div>
+              <div class="swatch center grid grid-center background-2 flex-vert"> <h4>Second Project Highlight</h4><p> #FFD4C2</p></div>
+              <div class="swatch center grid grid-center background-3 flex-vert"> <h4>Third Project Highlight</h4><p> #B8CCD3</p></div>
+            </div>
+            <h3 class="margin-top">Fonts :</h3>
+            <p>There are two fonts to be used. <em>Din Pro</em> will be used for all headings and titles, while <em>Libre Baskerville</em> will be used strictly for more in depth content, such as longer paragraphs. </p>
+            <h4>Din Pro Sample :</h4>
+            <h2 class="grid-gutters-left">Din Pro</h2>
+            <h4>Libre Baskerville Sample :</h4>
+            <p class="grid-gutters-left">Libre Baskerville</p>
+          </div>
+        </div>
 
-        <div class=" blue">
-          <h2 class="product-title">INTERACTIVE ELEMENTS</h2>
+        <div class="big-margin-top">
+          <h2> Interactive Elements</h2>
         </div>
         <div>
-          <div>
-            <h3>Navigation Button</h3>
+          <div class="grid-gutters-left">
+            <h3>Navigation Button :</h3>
+            <p>The navigation button is the foundation for interactive elements. It is to be used for any buttons on the page that will direct them to a new page.</p>
             <a href="#" class="btn margin-top">
               <svg>
                 <rect x="2" y="2" height="90%" width="98%"></rect>
@@ -61,87 +91,62 @@
               View Project
             </a>
             <div>
-              <h3>Main Navigation</h3>
-              <nav id="nav-buttons">
-                <ul>
-                  <li class="nav-list nav-btn">Button
-                  </li>
-                </ul>
-              </nav>
+              <h3>Main Navigation :</h3>
+              <p>The main navigation button is based on the navigation button, however it should only be used for centralized navigation areas, and shoudl not be used as a regular button.</p>
+              <div class="grid">
+                <nav id="nav-buttons grid-third">
+                  <ul>
+                    <li class="nav-list nav-btn">Button
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </div>
           </a>
         </div>
 
-        <div class="margin-top">
+        <div class="big-margin-top">
+          <div>
+            <h2>Text Styling</h2>
+          </div>
+          <div class="grid-gutters-left">
+            <div>
+              <h3>Headings :</h3>
+              <h1>heading 1</h1>
+              <h2>heading 2</h2>
+              <h3>heading 3</h3>
+            </div>
+            <div>
+              <h3>Paragraphs :</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur, elit ut bibendum elementum, sapien lacus placerat massa, a vulputate odio sem dignissim tortor. Nunc quis leo sed sapien egestas laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc efficitur turpis eget porttitor porttitor. Proin in feugiat felis. Etiam vitae blandit magna, nec bibendum neque. Phasellus tincidunt metus sed est suscipit luctus.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="big-margin-top">
           <div class=" blue">
-            <h2 class="product-title">TEXT STYLING</h2>
+            <h2>Grids</h2>
           </div>
-          <div>
-            <h3>Headings</h3>
-            <h1>heading 1</h1>
-            <h2>heading 2</h2>
-            <h3>heading 3</h3>
-          </div>
-        </div>
+          <div class="grid flex-vert margin-top">
+            <div class="background-2 grid-full center"> <h4>full screen</h4></div>
 
-        <div class="margin-top">
-          <div class=" blue">
-            <h2 class="product-title">GRIDS</h2>
-          </div>
-          <div class="grid flex-vert">
-            <div class="background-2 grid-full"> full screen</div>
-            <div class="grid grid-full flex-horiz">
-              <div class="background-2 grid-half">half-screen</div>
-              <div class="background-3 grid-half"> half-screen</div>
+            <div class="grid grid-full flex-horiz margin-top">
+              <div class="background-2 grid-half center"><h4>half-screen</h4></div>
+              <div class="background-3 grid-half center"><h4>half-screen</h4></div>
             </div>
 
-            <div class="grid grid-full flex-horiz">
-              <div class="background-2 grid-sixty">60% of screen</div>
-              <div class="background-3 grid-fourty"> 40% of screen</div>
+            <div class="grid grid-full flex-horiz margin-top">
+              <div class="background-2 grid-sixty center"><h4>60% of screen</h4></div>
+              <div class="background-3 grid-fourty center"><h4>40% of screen</h4></div>
             </div>
 
-            <div class="grid grid-full flex-horiz">
-              <div class="background-2 grid-two-third">70% of screen</div>
-              <div class="background-3 grid-third"> 30% of screen</div>
+            <div class="grid grid-full flex-horiz margin-top">
+              <div class="background-2 grid-two-third center"><h4>70% of screen</h4></div>
+              <div class="background-3 grid-third center"><h4>30% of screen</h4></div>            
             </div>
 
           </div>
         </div>
-
-        <div class="margin-top">
-          <div class="center blue">
-            <h2 class="product-title">COMBINED ELEMENTS</h2>
-          </div>
-          <div>
-            <div class="grid-full">
-              <div class="vertical-stripe background-2">
-                <img src="img/cloud-test2.png" class="project-one-img" alt="image of interactive lamp made for product design class">
-              </div>
-              <div id="main-content-two" class="grid grid-top grid-two-third">
-                <section class="project-description grid-top">
-                  <div class="title-container">
-                    <h2 class="product-title background-2">WATERBEARER</h2>
-                  </div>
-                  <p class="margin-top"> <em>animation:</em> a three minute 3D animation created using autodesk's Maya.</p>
-
-                  <a href="project-two.html" class="btn margin-top">
-                    <svg>
-                      <rect x="2" y="2" height="90%" width="98%" style="stroke: #FFD4C2"></rect>
-                    </svg>
-                    View Project
-                  </a>
-                </section>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <h3> Paragraphs</h3>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras erat diam, iaculis ac erat et, commodo ultricies diam. Nullam quam arcu, blandit convallis odio quis, semper ultrices orci. Curabitur eu convallis ligula. Maecenas turpis est, pulvinar ac lacinia a, commodo nec metus. Nam id massa laoreet, condimentum dui sed, aliquet ex. Nam dignissim, eros at rhoncus dapibus, mauris risus ultricies nibh, at ornare tellus ligula ut leo. Vivamus tempus blandit semper. Ut justo tortor, venenatis eu rutrum sit amet, pretium ut dolor. Fusce ac quam tincidunt, consectetur neque non, ullamcorper sapien. Praesent maximus molestie luctus. Phasellus blandit molestie hendrerit. Donec interdum, lectus nec dignissim dapibus, urna tortor interdum urna, in dictum metus eros bibendum mi. Nunc scelerisque metus purus, nec suscipit velit finibus eget. Sed placerat libero sed fringilla accumsan.</p>
-          </div>
-        </div>
-
 
         <div class="grid center grid-center margin-top">
           <a href="index.html" class="btn">

@@ -145,6 +145,11 @@
   margin-right:0;
 }
 
+.space-between{
+  align-content: space-between;
+  align-items: center;
+}
+
   #main-content{
   margin-top: 15rem;
   margin-right: 10vw;
@@ -318,7 +323,7 @@ p{
 
 @media(min-width: 63.3125em){
   #img-cont img{
-  height: 500px;
+  height: 400px;
   top: 8rem;
 }
 
